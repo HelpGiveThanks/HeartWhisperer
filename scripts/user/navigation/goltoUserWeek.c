@@ -50,7 +50,7 @@ Set Variable [ $$stopLoadUserWeek; Value:1 ]
 #Create a window to show icons for creating workouts.
 New Window [ Name: "Icons" ]
 If [ PatternCount ( Get ( ApplicationVersion ) ; "GO" ) ]
-January 8, 平成26 12:07:30 Fat and Muscle Efﬁciency Research.fp7 - goltoUserWeek -1-user: navigation: goltoUserWeek
+January 30, 平成26 22:07:20 Heart Whisperer.fp7 - goltoUserWeek -1-user: navigation: goltoUserWeek
 Go to Layout [ “iconSmallGrid” (iconGrid) ]
 Else
 Set Variable [ $$showSelection; Value:1 ]
@@ -103,7 +103,7 @@ Go to Record/Request/Page
 #
 #Restart load record script and perform it to highlight
 #current record, if any.
-January 8, 平成26 12:07:30 Fat and Muscle Efﬁciency Research.fp7 - goltoUserWeek -2-user: navigation: goltoUserWeek
+January 30, 平成26 22:07:20 Heart Whisperer.fp7 - goltoUserWeek -2-user: navigation: goltoUserWeek
 Set Variable [ $$stopLoadUserWeek ]
 Perform Script [ “loadUserPlannedWeek” ]
 #
@@ -111,7 +111,7 @@ Perform Script [ “loadUserPlannedWeek” ]
 Select Window [ Name: "Planned Workouts"; Current file ]
 #
 #Select user log.
-Select Window [ Name: "Fat and Muscle Efficiency Research"; Current file ]
+Select Window [ Name: "Heart Whisperer"; Current file ]
 #
 #Go to user workout layout.
 Set Window Title [ Current Window; New Title: "My Workouts" ]
@@ -145,4 +145,4 @@ Go to Field [ ]
 Set Variable [ $$stopLoadUserWeek ]
 Perform Script [ “loadUserLogWeek” ]
 #
-January 8, 平成26 12:07:30 Fat and Muscle Efﬁciency Research.fp7 - goltoUserWeek -3-
+January 30, 平成26 22:07:20 Heart Whisperer.fp7 - goltoUserWeek -3-
