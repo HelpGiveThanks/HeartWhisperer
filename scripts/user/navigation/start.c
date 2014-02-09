@@ -3,13 +3,15 @@ Allow User Abort [ Off ]
 Set Error Capture [ On ]
 #
 #Checked if opened by user or by backup script.
-Paste [ ]
+// Paste [ ]
 [ Select ]
-If [ ]
-End If
+// If [ ]
+// End If
 #
-#current record, if any.
-Set Window Title [ Current Window; New Title: "Fat and Muscle Efﬁciency Research" ]
+#Set current window title and size to fit layout.
+Set Window Title [ Current Window; New Title: "Heart Whisperer" ]
+Adjust Window
+[ Resize to Fit ]
 Show/Hide Text Ruler
 [ Hide ]
 Show/Hide Status Area
@@ -33,4 +35,4 @@ End If
 #
 #Report version number to Memory Switch Table.
 Set Field [ MemorySwitch::versionFMER; Icons01::version ]
-January 8, 平成26 12:08:17 Fat and Muscle Efﬁciency Research.fp7 - start -1-
+February 8, 平成26 12:38:56 Heart Whisperer.fp7 - start -1-
