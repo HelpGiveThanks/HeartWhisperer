@@ -14,7 +14,7 @@ Show Custom Dialog [ Message: "Are you sure you want delete this segement and mo
 gap?"; Buttons: “cancel”, “x segment” ]
 If [ Get ( LastMessageChoice ) = 2 ]
 Set Variable [ $workout; Value:activity::_Lactivity ]
-New Window [ Height: 1; Width: 1; Top: 1; Left: 1 ]
+New Window [ Height: 1; Width: 1; Top: -1000; Left: -1000 ]
 // New Window [ ]
 Go to Layout [ “WorkoutSegment” (segment01) ]
 Enter Find Mode [ ]

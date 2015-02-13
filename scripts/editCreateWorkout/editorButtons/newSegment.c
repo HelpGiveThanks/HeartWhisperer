@@ -8,7 +8,7 @@ Set Variable [ $newSegment; Value:Get ( ActiveLayoutObjectName ) ]
 Go to Field [ ]
 #
 #Open a new window so the users place is not lost.
-New Window [ Height: 1; Width: 1; Top: 1; Left: 1 ]
+New Window [ Height: 1; Width: 1; Top: -1000; Left: -1000 ]
 Go to Layout [ “WorkoutSegment” (segment01) ]
 #
 #Find all segments in for this workout and sort them.

@@ -49,9 +49,8 @@ Set Field [ activity::rowCbegin; "" ]
 End If
 Go to Field [ ]
 #
-New Window [ Height: 1; Width: 1; Top: 1; Left: 1 ]
+New Window [ Height: 1; Width: 1; Top: -1000; Left: -1000 ]
 January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -1-editCreateWorkout: editorButtons: updateTimeSequence
-// New Window [ Top: 1; Left: 1 ]
 #Clear time.
 Set Variable [ $workout; Value:activity::_Lactivity ]
 Go to Layout [ “WorkoutSegment” (segment01) ]
