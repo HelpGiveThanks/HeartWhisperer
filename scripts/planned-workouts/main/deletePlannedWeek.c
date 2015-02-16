@@ -50,7 +50,7 @@ Close Window [ Current Window ]
 Set Variable [ $$recordPlan; Value:Get ( RecordID ) ]
 Refresh Window
 #
-January 8, 平成26 12:33:40 Fat and Muscle Efﬁciency Research.fp7 - deletePlannedWeek -1-planned workouts: main: deletePlannedWeek
+January 8, 平成26 12:33:40 Fat and Muscle Efficiency Research.fp7 - deletePlannedWeek -1-planned workouts: main: deletePlannedWeek
 #Restart load record script and perform it to highlight
 #current record, if any.
 Set Variable [ $$stopLoadUserWeek ]
@@ -62,4 +62,4 @@ Show Custom Dialog [ Message: "Your planned workouts will now be renumbered to c
 Perform Script [ “orderPlannedWorkouts” ]
 End If
 #
-January 8, 平成26 12:33:40 Fat and Muscle Efﬁciency Research.fp7 - deletePlannedWeek -2-
+January 8, 平成26 12:33:40 Fat and Muscle Efficiency Research.fp7 - deletePlannedWeek -2-

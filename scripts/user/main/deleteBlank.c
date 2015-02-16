@@ -17,4 +17,4 @@ Set Field [ "" ]
 End If
 Go to Field [ ]
 Perform Script [ “loadUser” ]
-January 8, 平成26 12:06:34 Fat and Muscle Efﬁciency Research.fp7 - deleteBlank -1-
+January 8, 平成26 12:06:34 Fat and Muscle Efficiency Research.fp7 - deleteBlank -1-

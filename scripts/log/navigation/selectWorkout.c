@@ -52,7 +52,7 @@ Perform Find [ ]
 Sort Records [ Specified Sort Order: prediction 3::name; ascending
 week::Order; ascending ]
 [ Restore; No dialog ]
-January 8, 平成26 12:20:54 Fat and Muscle Efﬁciency Research.fp7 - selectWorkout -1-log: navigation: selectWorkout Sort Records [ Specified Sort Order: prediction 3::name; ascending
+January 8, 平成26 12:20:54 Fat and Muscle Efficiency Research.fp7 - selectWorkout -1-log: navigation: selectWorkout Sort Records [ Specified Sort Order: prediction 3::name; ascending
 week::Order; ascending ]
 [ Restore; No dialog ]
 #
@@ -74,4 +74,4 @@ End If
 Set Variable [ $$stopLoadUserWeek ]
 Perform Script [ “loadUserPlannedWeek” ]
 #
-January 8, 平成26 12:20:54 Fat and Muscle Efﬁciency Research.fp7 - selectWorkout -2-
+January 8, 平成26 12:20:54 Fat and Muscle Efficiency Research.fp7 - selectWorkout -2-

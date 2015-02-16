@@ -50,7 +50,7 @@ Set Field [ activity::planningOrPlanned; "" ]
 #
 #Open a new window so the users place is not lost.
 New Window [ Height: 1; Width: 1; Top: -1000; Left: -1000 ]
-January 8, 平成26 12:39:14 Fat and Muscle Efﬁciency Research.fp7 - duplicateWorkout -1-editCreateWorkout: editorButtons: duplicateWorkout
+January 8, 平成26 12:39:14 Fat and Muscle Efficiency Research.fp7 - duplicateWorkout -1-editCreateWorkout: editorButtons: duplicateWorkout
 Go to Layout [ “WorkoutSegment” (segment01) ]
 #
 #Find all segments in for orginal workout.
@@ -84,4 +84,4 @@ End Loop
 #Show newly duplicated workout.
 Close Window [ Current Window ]
 #
-January 8, 平成26 12:39:14 Fat and Muscle Efﬁciency Research.fp7 - duplicateWorkout -2-
+January 8, 平成26 12:39:14 Fat and Muscle Efficiency Research.fp7 - duplicateWorkout -2-

@@ -33,4 +33,4 @@ End If
 #
 #Hilight current record.
 Perform Script [ “loadUserActivity” ]
-January 8, 平成26 12:37:25 Fat and Muscle Efﬁciency Research.fp7 - selectAllWorkouts -1-
+January 8, 平成26 12:37:25 Fat and Muscle Efficiency Research.fp7 - selectAllWorkouts -1-

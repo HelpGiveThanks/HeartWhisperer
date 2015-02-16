@@ -13,4 +13,4 @@ Exit Script [ ]
 End If
 Set Field [ "" ]
 Go to Field [ ]
-January 8, 平成26 12:23:12 Fat and Muscle Efﬁciency Research.fp7 - 30seconds -1-
+January 8, 平成26 12:23:12 Fat and Muscle Efficiency Research.fp7 - 30seconds -1-

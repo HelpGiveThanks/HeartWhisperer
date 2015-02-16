@@ -14,4 +14,4 @@ Else If [ $$icon = "" and Get(ActiveFieldContents) = "" ]
 Go to Field [ ]
 Select Window [ Name: "Icons"; Current file ]
 End If
-January 8, 平成26 15:42:24 Fat and Muscle Efﬁciency Research.fp7 - insertIcon -1-
+January 8, 平成26 15:42:24 Fat and Muscle Efficiency Research.fp7 - insertIcon -1-

@@ -51,7 +51,7 @@ Set Field [ week::_Lweek; $week ]
 Perform Find [ ]
 Delete Record/Request
 [ No dialog ]
-January 8, 平成26 12:25:08 Fat and Muscle Efﬁciency Research.fp7 - deleteWorkoutFromWeekPlan -1-plan: main: deleteWorkoutFromWeekPlan Delete Record/Request
+January 8, 平成26 12:25:08 Fat and Muscle Efficiency Research.fp7 - deleteWorkoutFromWeekPlan -1-plan: main: deleteWorkoutFromWeekPlan Delete Record/Request
 [ No dialog ]
 End If
 #
@@ -66,4 +66,4 @@ Refresh Window
 #current record, if any.
 Set Variable [ $$stopLoadUserWeek ]
 #
-January 8, 平成26 12:25:08 Fat and Muscle Efﬁciency Research.fp7 - deleteWorkoutFromWeekPlan -2-
+January 8, 平成26 12:25:08 Fat and Muscle Efficiency Research.fp7 - deleteWorkoutFromWeekPlan -2-

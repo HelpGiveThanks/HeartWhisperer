@@ -52,7 +52,7 @@ seconds before next segment
 ((Hour(activitySequence2::time) * 3600) + (Minute(activitySequence2::time) * 60) + Seconds(activitySequence2::time))
  +
 $time ) ]
-January 8, 平成26 12:36:29 Fat and Muscle Efﬁciency Research.fp7 - doWorkoutPart2 -1-doWorkout: main: doWorkoutPart2 Set Field [ activitySequence1::timeToNextSegment; //( time to next segment + last time script paused ) - current time = actual
+January 8, 平成26 12:36:29 Fat and Muscle Efficiency Research.fp7 - doWorkoutPart2 -1-doWorkout: main: doWorkoutPart2 Set Field [ activitySequence1::timeToNextSegment; //( time to next segment + last time script paused ) - current time = actual
 seconds before next segment
 ( ((Hour(activitySequence3::time) * 3600) + (Minute(activitySequence3::time) * 60) + Seconds(activitySequence3::time)) -
 ((Hour(activitySequence2::time) * 3600) + (Minute(activitySequence2::time) * 60) + Seconds(activitySequence2::time))
@@ -103,4 +103,4 @@ Set Field [ activity::segmentNumberGlobal; activitySequence2::segement + 1 ]
 #Tell user they can log the workout now.
 Set Field [ activitySequence1::message; "click screen to log workout" ]
 #
-January 8, 平成26 12:36:29 Fat and Muscle Efﬁciency Research.fp7 - doWorkoutPart2 -2-
+January 8, 平成26 12:36:29 Fat and Muscle Efficiency Research.fp7 - doWorkoutPart2 -2-

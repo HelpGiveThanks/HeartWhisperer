@@ -11,4 +11,4 @@ Select Window [ Name: "Workout Editor"; Current file ]
 Else
 Select Window [ Name: "Workout Editor"; Current file ]
 End If
-January 8, 平成26 15:43:26 Fat and Muscle Efﬁciency Research.fp7 - selectIcon -1-
+January 8, 平成26 15:43:26 Fat and Muscle Efficiency Research.fp7 - selectIcon -1-

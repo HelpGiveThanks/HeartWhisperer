@@ -17,4 +17,4 @@ Set Field [ segment01::MaxHeartRate; exerciseMHR::MaxHeartRateCurrent ]
 Set Field [ exerciseMHR::MaxHeartRate; exerciseMHR::MaxHeartRateCurrent ]
 Refresh Window
 Go to Field [ ]
-January 8, 平成26 12:05:38 Fat and Muscle Efﬁciency Research.fp7 - loadUser -1-
+January 8, 平成26 12:05:38 Fat and Muscle Efficiency Research.fp7 - loadUser -1-

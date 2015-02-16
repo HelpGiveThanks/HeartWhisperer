@@ -21,7 +21,7 @@ Go to Field [ ]
 #
 #Stop script if essential info is missing and inform user.
 If [ exerciseMHR::MaxHeartRateCurrent = "" or exerciseMHR::exercise = "" or user::name = "" ]
-Show Custom Dialog [ Message: "Name, test exercise and test bpm ﬁelds must be ﬁlled in before going to workouts."; Buttons:
+Show Custom Dialog [ Message: "Name, test exercise and test bpm fields must be filled in before going to workouts."; Buttons:
 “OK” ]
 Exit Script [ ]
 End If

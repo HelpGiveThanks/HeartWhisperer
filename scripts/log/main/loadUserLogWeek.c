@@ -20,4 +20,4 @@ Set Field [ exerciseMHR::MaxHeartRate; exerciseLog::MaxHeartRateCurrent ]
 Go to Field [ ]
 Refresh Window
 #
-January 8, 平成26 12:09:23 Fat and Muscle Efﬁciency Research.fp7 - loadUserLogWeek -1-
+January 8, 平成26 12:09:23 Fat and Muscle Efficiency Research.fp7 - loadUserLogWeek -1-

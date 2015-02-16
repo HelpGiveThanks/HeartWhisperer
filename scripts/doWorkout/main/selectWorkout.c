@@ -28,4 +28,4 @@ Enter Find Mode [ ]
 Set Field [ activity::_Lactivity; $workout ]
 Perform Find [ ]
 #
-January 8, 平成26 12:37:54 Fat and Muscle Efﬁciency Research.fp7 - selectWorkout -1-
+January 8, 平成26 12:37:54 Fat and Muscle Efficiency Research.fp7 - selectWorkout -1-

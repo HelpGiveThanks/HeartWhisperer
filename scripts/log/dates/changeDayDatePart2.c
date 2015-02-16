@@ -16,4 +16,4 @@ End If
 Set Field [ planlog::date; $newDate ]
 Go to Field [ ]
 #
-January 8, 平成26 12:16:45 Fat and Muscle Efﬁciency Research.fp7 - changeDayDatePart2 -1-
+January 8, 平成26 12:16:45 Fat and Muscle Efficiency Research.fp7 - changeDayDatePart2 -1-

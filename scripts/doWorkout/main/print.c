@@ -50,7 +50,7 @@ Go to Layout [ “print” (activity) ]
 #Find the workout.
 Enter Find Mode [ ]
 Set Field [ activity::_Lactivity; $workout ]
-January 8, 平成26 12:35:59 Fat and Muscle Efﬁciency Research.fp7 - print -1-doWorkout: main: print
+January 8, 平成26 12:35:59 Fat and Muscle Efficiency Research.fp7 - print -1-doWorkout: main: print
 Perform Find [ ]
 Enter Preview Mode
 Adjust Window
@@ -62,4 +62,4 @@ Print [ ]
 #
 #Set starting sequence segements.
 Close Window [ Current Window ]
-January 8, 平成26 12:35:59 Fat and Muscle Efﬁciency Research.fp7 - print -2-
+January 8, 平成26 12:35:59 Fat and Muscle Efficiency Research.fp7 - print -2-

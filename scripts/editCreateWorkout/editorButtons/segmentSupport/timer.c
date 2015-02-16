@@ -5,4 +5,4 @@ Else If [ activity::NewSegmentButton ≠ "" ]
 Set Field [ activity::NewSegmentButton; "" ]
 Install OnTimer Script [ ]
 End If
-January 8, 平成26 12:51:37 Fat and Muscle Efﬁciency Research.fp7 - timer -1-
+January 8, 平成26 12:51:37 Fat and Muscle Efficiency Research.fp7 - timer -1-

@@ -10,4 +10,4 @@ End If
 Set Field [ exerciseMHR::MaxHeartRate; exerciseMHR::MaxHeartRateCurrent ]
 Set Field [ planlog::kuserGlobal; exerciseMHR::kuser ]
 Go to Field [ ]
-January 8, 平成26 12:07:01 Fat and Muscle Efﬁciency Research.fp7 - selectExerciseDELETE -1-
+January 8, 平成26 12:07:01 Fat and Muscle Efficiency Research.fp7 - selectExerciseDELETE -1-

@@ -50,7 +50,7 @@ New Window [ Name: "Workout" ]
 Set Variable [ $$stopLoadUserWeek ]
 End If
 #
-January 8, 平成26 12:35:00 Fat and Muscle Efﬁciency Research.fp7 - doWorkoutPart1 -1-doWorkout: main: doWorkoutPart1
+January 8, 平成26 12:35:00 Fat and Muscle Efficiency Research.fp7 - doWorkoutPart1 -1-doWorkout: main: doWorkoutPart1
 #Show on select layout.
 Go to Layout [ “doWorkout” (activity) ]
 #
@@ -67,4 +67,4 @@ Set Field [ activitySequence1::timeToNextSegment; "" ]
 Set Field [ activity::ksequence1; "" ]
 Set Field [ activity::ksequence2; 1 ]
 Set Field [ activity::ksequence3; 2 ]
-January 8, 平成26 12:35:00 Fat and Muscle Efﬁciency Research.fp7 - doWorkoutPart1 -2-
+January 8, 平成26 12:35:00 Fat and Muscle Efficiency Research.fp7 - doWorkoutPart1 -2-

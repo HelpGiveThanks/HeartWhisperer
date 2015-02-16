@@ -18,4 +18,4 @@ Go to Record/Request/Page
 [ Next; Exit after last ]
 End Loop
 Close Window [ Current Window ]
-January 8, 平成26 12:33:09 Fat and Muscle Efﬁciency Research.fp7 - CHUNKorderFrom1 -1-
+January 8, 平成26 12:33:09 Fat and Muscle Efficiency Research.fp7 - CHUNKorderFrom1 -1-

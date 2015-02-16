@@ -52,7 +52,7 @@ Exit Loop If [ week::Order = $order ]
 Go to Record/Request/Page
 [ Next; Exit after last ]
 End Loop
-January 8, 平成26 12:32:10 Fat and Muscle Efﬁciency Research.fp7 - orderPlannedWorkouts -1-planned workouts: main: orderPlannedWorkouts
+January 8, 平成26 12:32:10 Fat and Muscle Efficiency Research.fp7 - orderPlannedWorkouts -1-planned workouts: main: orderPlannedWorkouts
 If [ week::Order = $order and week::_Lweek = $week ]
 Go to Record/Request/Page
 [ Next ]
@@ -71,4 +71,4 @@ End If
 End If
 Perform Script [ “CHUNKorderFrom1” ]
 Go to Object [ Object Name: "prediction" ]
-January 8, 平成26 12:32:10 Fat and Muscle Efﬁciency Research.fp7 - orderPlannedWorkouts -2-
+January 8, 平成26 12:32:10 Fat and Muscle Efficiency Research.fp7 - orderPlannedWorkouts -2-

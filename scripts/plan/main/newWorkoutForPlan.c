@@ -36,4 +36,4 @@ Perform Script [ “loadPlanWeek” ]
 Perform Script [ “enterFormViewIfOniPhone” ]
 Go to Field [ ]
 #
-January 8, 平成26 12:24:04 Fat and Muscle Efﬁciency Research.fp7 - newWorkoutForPlan -1-
+January 8, 平成26 12:24:04 Fat and Muscle Efficiency Research.fp7 - newWorkoutForPlan -1-

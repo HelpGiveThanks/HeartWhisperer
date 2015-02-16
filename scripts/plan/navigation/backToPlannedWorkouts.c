@@ -16,4 +16,4 @@ Close Window [ Name: "Icons"; Current file ]
 Close Window [ Name: "Workout Editor"; Current file ]
 #
 Select Window [ Name: "Plan Week"; Current file ]
-January 8, 平成26 12:28:01 Fat and Muscle Efﬁciency Research.fp7 - backToPlannedWorkouts -1-
+January 8, 平成26 12:28:01 Fat and Muscle Efficiency Research.fp7 - backToPlannedWorkouts -1-

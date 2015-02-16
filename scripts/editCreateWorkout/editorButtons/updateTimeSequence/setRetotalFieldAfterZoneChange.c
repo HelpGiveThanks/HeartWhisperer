@@ -9,4 +9,4 @@ Set Field [ activity::go; "" ]
 #the window to account for changes zone change can make.
 Go to Field [ ]
 Refresh Window
-January 8, 平成26 12:41:48 Fat and Muscle Efﬁciency Research.fp7 - setRetotalFieldAfterZoneChange -1-
+January 8, 平成26 12:41:48 Fat and Muscle Efficiency Research.fp7 - setRetotalFieldAfterZoneChange -1-

@@ -50,7 +50,7 @@ Set Field [ activity::z1timeGoal; Case ( Time ( planlog::z1hour ; planlog::z1min
 z1hour ; planlog::z1minute ; planlog::z1second ) ) ]
 Set Field [ activity::z2timeGoal; Case ( Time ( planlog::z2hour ; planlog::z2minute ; planlog::z2second ) = 0 ; "" ; Time ( planlog::
 z2hour ; planlog::z2minute ; planlog::z2second ) ) ]
-January 8, 平成26 12:24:39 Fat and Muscle Efﬁciency Research.fp7 - SetWorkoutEditorGoal -1-plan: main: SetWorkoutEditorGoal
+January 8, 平成26 12:24:39 Fat and Muscle Efficiency Research.fp7 - SetWorkoutEditorGoal -1-plan: main: SetWorkoutEditorGoal
 Set Field [ activity::z3timeGoal; Case ( Time ( planlog::z3hour ; planlog::z3minute ; planlog::z3second ) = 0 ; "" ; Time ( planlog::
 z3hour ; planlog::z3minute ; planlog::z3second ) ) ]
 Set Field [ activity::z4timeGoal; Case ( Time ( planlog::z4hour ; planlog::z4minute ; planlog::z4second ) = 0 ; "" ; Time ( planlog::
@@ -69,4 +69,4 @@ Go to Field [ ]
 #Go to the workout editor window, where the goal fields
 #have now been updated.
 Select Window [ Name: "Workout Editor"; Current file ]
-January 8, 平成26 12:24:39 Fat and Muscle Efﬁciency Research.fp7 - SetWorkoutEditorGoal -2-
+January 8, 平成26 12:24:39 Fat and Muscle Efficiency Research.fp7 - SetWorkoutEditorGoal -2-

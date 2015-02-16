@@ -50,7 +50,7 @@ Enter Find Mode [ ]
 Set Field [ planlog::kweek; $week ]
 Perform Find [ ]
 #
-January 8, 平成26 12:30:36 Fat and Muscle Efﬁciency Research.fp7 - duplicatePlannedWeek -1-planned workouts: main: duplicatePlannedWeek
+January 8, 平成26 12:30:36 Fat and Muscle Efficiency Research.fp7 - duplicatePlannedWeek -1-planned workouts: main: duplicatePlannedWeek
 #Go to week layout and find week.
 Go to Layout [ “weekTag” (week) ]
 Enter Find Mode [ ]
@@ -102,7 +102,7 @@ Set Field [ planlog::kweek; $newWeek ]
 #
 #Set status to planning.
 Set Field [ planlog::plannedOrPerformed; "planning" ]
-January 8, 平成26 12:30:36 Fat and Muscle Efﬁciency Research.fp7 - duplicatePlannedWeek -2-planned workouts: main: duplicatePlannedWeek
+January 8, 平成26 12:30:36 Fat and Muscle Efficiency Research.fp7 - duplicatePlannedWeek -2-planned workouts: main: duplicatePlannedWeek
 #
 #Omit duplicate and orginal records.
 Omit Record
@@ -121,4 +121,4 @@ Perform Find [ ]
 Set Variable [ $$stopLoadUserWeek ]
 Perform Script [ “loadPlanWeek” ]
 #
-January 8, 平成26 12:30:36 Fat and Muscle Efﬁciency Research.fp7 - duplicatePlannedWeek -3-
+January 8, 平成26 12:30:36 Fat and Muscle Efficiency Research.fp7 - duplicatePlannedWeek -3-

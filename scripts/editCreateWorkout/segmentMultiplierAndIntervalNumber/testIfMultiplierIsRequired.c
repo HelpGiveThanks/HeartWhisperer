@@ -15,4 +15,4 @@ Exit Script [ ]
 End If
 Set Variable [ $$stop ]
 Go to Field [ ]
-January 8, 平成26 15:46:34 Fat and Muscle Efﬁciency Research.fp7 - testIfMultiplierIsRequired -1-
+January 8, 平成26 15:46:34 Fat and Muscle Efficiency Research.fp7 - testIfMultiplierIsRequired -1-

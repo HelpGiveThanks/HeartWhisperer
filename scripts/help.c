@@ -9,7 +9,7 @@ help
 Set Field [ MemorySwitch::backToSolution; "FMER" ]
 #
 #Users, Exercises and Conditions help screen
-If [ Get (LayoutName) = "Proﬁle" ]
+If [ Get (LayoutName) = "Profile" ]
 Set Field [ MemorySwitch::helpLayoutName; "Users, Exercises and Conditions" ]
 Set Field [ MemorySwitch::helpObjectName; "" ]
 #
@@ -49,20 +49,20 @@ Open URL [ Case ( Get ( SystemPlatform ) = - 2 ;
 Substitute ( Substitute ( Get (FilePath) ; Get (FileName) & Right ( Get (FilePath) ; 4 ) ; "help" & Right ( Get (FilePath) ; 4 ) ) ; " " ;
 "%20" ) ;
 Substitute ( Substitute ( Substitute ( Get (FilePath) ; Get (FileName) & Right ( Get (FilePath) ; 4 ) ; "help" & Right ( Get (FilePath) ;
-4 ) ) ; "ﬁle:/" ; "ﬁle://" ) ; " " ; "%20" ) ) ]
+4 ) ) ; "file:/" ; "file://" ) ; " " ; "%20" ) ) ]
 [ No dialog ]
-January 8, 平成26 15:49:38 Fat and Muscle Efﬁciency Research.fp7 - help -1-help
+January 8, 平成26 15:49:38 Fat and Muscle Efficiency Research.fp7 - help -1-help
 Open URL [ Case ( Get ( SystemPlatform ) = - 2 ;
 Substitute ( Substitute ( Get (FilePath) ; Get (FileName) & Right ( Get (FilePath) ; 4 ) ; "help" & Right ( Get (FilePath) ; 4 ) ) ; " " ;
 "%20" ) ;
 Substitute ( Substitute ( Substitute ( Get (FilePath) ; Get (FileName) & Right ( Get (FilePath) ; 4 ) ; "help" & Right ( Get (FilePath) ;
-4 ) ) ; "ﬁle:/" ; "ﬁle://" ) ; " " ; "%20" ) ) ]
+4 ) ) ; "file:/" ; "file://" ) ; " " ; "%20" ) ) ]
 [ No dialog ]
 Open URL [ Substitute ( Substitute ( Substitute ( Substitute ( Get (FilePath) ; Get (FileName) & Right ( Get (FilePath) ; 4 ) ; "help" &
-Right ( Get (FilePath) ; 4 ) ) ; "ﬁle:/" ; "ﬁle://" ) ; " " ; "%20" ) ; "ﬁle://" ; "ﬁle:///Volumes/" ) ]
+Right ( Get (FilePath) ; 4 ) ) ; "file:/" ; "file://" ) ; " " ; "%20" ) ; "file://" ; "file:///Volumes/" ) ]
 [ No dialog ]
 #
 Select Window [ Name: "Help" ]
 Select Window [ Name: "Tutorial" ]
 #
-January 8, 平成26 15:49:38 Fat and Muscle Efﬁciency Research.fp7 - help -2-
+January 8, 平成26 15:49:38 Fat and Muscle Efficiency Research.fp7 - help -2-

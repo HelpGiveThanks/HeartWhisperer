@@ -50,7 +50,7 @@ Close Window [ Name: "Workout"; Current file ]
 Else If [ Get (WindowName) = "Planned Workouts" ]
 Set Variable [ $workout; Value:planlog::kworkout ]
 Set Variable [ $note; Value:planlog::note ]
-January 8, 平成26 12:31:09 Fat and Muscle Efﬁciency Research.fp7 - logWorkout -1-planned workouts: main: logWorkout
+January 8, 平成26 12:31:09 Fat and Muscle Efficiency Research.fp7 - logWorkout -1-planned workouts: main: logWorkout
 #
 #Capture window title for user's workouts.
 // Set Variable [ $me; Value:user::name & "'s Workouts" ]
@@ -97,4 +97,4 @@ Scroll Window
 [ To Selection ]
 Go to Field [ ]
 #
-January 8, 平成26 12:31:09 Fat and Muscle Efﬁciency Research.fp7 - logWorkout -2-
+January 8, 平成26 12:31:09 Fat and Muscle Efficiency Research.fp7 - logWorkout -2-

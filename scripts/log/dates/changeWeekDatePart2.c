@@ -48,4 +48,4 @@ Set Field [ week::date; $newDate ]
 Set Variable [ $$stopLoadUserWeek ]
 Go to Layout [ original layout ]
 #
-January 8, 平成26 12:15:37 Fat and Muscle Efﬁciency Research.fp7 - changeWeekDatePart2 -1-
+January 8, 平成26 12:15:37 Fat and Muscle Efficiency Research.fp7 - changeWeekDatePart2 -1-

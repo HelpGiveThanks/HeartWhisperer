@@ -48,7 +48,7 @@ segment01::ZonePoints
 * 2 )
 / 60 )
 + $add ]
-January 8, 平成26 12:42:28 Fat and Muscle Efﬁciency Research.fp7 - CHUNKAddUpPointsAndTime -1-editCreateWorkout: editorButtons: updateTimeSequence: CHUNKAddUpPointsAndTime
+January 8, 平成26 12:42:28 Fat and Muscle Efficiency Research.fp7 - CHUNKAddUpPointsAndTime -1-editCreateWorkout: editorButtons: updateTimeSequence: CHUNKAddUpPointsAndTime
 Go to Object [ Object Name: 3 ]
 Set Variable [ $add; Value:Get (ActiveFieldContents) ]
 Set Field [ ( ( ( ( (
@@ -94,7 +94,7 @@ segment01::ZonePoints
 / 60 )
 + $add ]
 Go to Object [ Object Name: 5 ]
-January 8, 平成26 12:42:28 Fat and Muscle Efﬁciency Research.fp7 - CHUNKAddUpPointsAndTime -2-editCreateWorkout: editorButtons: updateTimeSequence: CHUNKAddUpPointsAndTime
+January 8, 平成26 12:42:28 Fat and Muscle Efficiency Research.fp7 - CHUNKAddUpPointsAndTime -2-editCreateWorkout: editorButtons: updateTimeSequence: CHUNKAddUpPointsAndTime
 Set Variable [ $add; Value:Get (ActiveFieldContents) ]
 Set Field [ ( ( ( ( (
 segment01::ZonePoints
@@ -150,7 +150,7 @@ $points * 60 = 0 ;
 "" ;
 $points * 60 ) ; "" ) ]
 #
-January 8, 平成26 12:42:28 Fat and Muscle Efﬁciency Research.fp7 - CHUNKAddUpPointsAndTime -3-editCreateWorkout: editorButtons: updateTimeSequence: CHUNKAddUpPointsAndTime
+January 8, 平成26 12:42:28 Fat and Muscle Efficiency Research.fp7 - CHUNKAddUpPointsAndTime -3-editCreateWorkout: editorButtons: updateTimeSequence: CHUNKAddUpPointsAndTime
 Go to Object [ Object Name: 4 ]
 Set Variable [ $points; Value:Get (ActiveFieldContents) /4 ]
 Go to Object [ Object Name: "4t" ]
@@ -170,4 +170,4 @@ $points * 60 ) ; "" ) ]
 Go to Layout [ original layout ]
 Set Field [ activity::go; 1 ]
 Set Field [ activity::reTotal; "" ]
-January 8, 平成26 12:42:28 Fat and Muscle Efﬁciency Research.fp7 - CHUNKAddUpPointsAndTime -4-
+January 8, 平成26 12:42:28 Fat and Muscle Efficiency Research.fp7 - CHUNKAddUpPointsAndTime -4-

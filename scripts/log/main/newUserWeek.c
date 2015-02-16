@@ -50,7 +50,7 @@ Set Field [ planlog::dateGlobal; week::date ]
 #Now create a new workout for this week.
 #
 #
-January 8, 平成26 12:10:12 Fat and Muscle Efﬁciency Research.fp7 - newUserWeek -1-log: main: newUserWeek
+January 8, 平成26 12:10:12 Fat and Muscle Efficiency Research.fp7 - newUserWeek -1-log: main: newUserWeek
 #
 #Create a new workout record.
 Go to Layout [ original layout ]
@@ -79,4 +79,4 @@ planlog::date; descending ]
 [ Restore; No dialog ]
 Perform Script [ “loadUserLogWeek” ]
 #
-January 8, 平成26 12:10:12 Fat and Muscle Efﬁciency Research.fp7 - newUserWeek -2-
+January 8, 平成26 12:10:12 Fat and Muscle Efficiency Research.fp7 - newUserWeek -2-

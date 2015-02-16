@@ -27,7 +27,7 @@ End If
 #Exit script if aEnd is not set.
 If [ activity::rowAend = "" ]
 Go to Field [ ]
-Show Custom Dialog [ Message: "Set the end segment for the ﬁrst row before setting the beginning segment for this second
+Show Custom Dialog [ Message: "Set the end segment for the first row before setting the beginning segment for this second
 row."; Buttons: “OK” ]
 Exit Script [ ]
 End If
@@ -50,7 +50,7 @@ Set Variable [ $$stop; Value:1 ]
 #
 #Collect row ending icon information.
 Go to Object [ Object Name: "icon" & GetValue ( activity::rowAend ; 1 ) ]
-January 8, 平成26 12:54:59 Fat and Muscle Efﬁciency Research.fp7 - bBegin -1-editCreateWorkout: editorButtons: segmentRowButtons: bBegin
+January 8, 平成26 12:54:59 Fat and Muscle Efficiency Research.fp7 - bBegin -1-editCreateWorkout: editorButtons: segmentRowButtons: bBegin
 Set Variable [ $$end; Value:Get ( ActiveFieldContents ) ]
 Go to Object [ Object Name: "zone" & GetValue ( activity::rowAend ; 1 ) ]
 Set Variable [ $$endZone; Value:Get ( ActiveFieldContents ) ]
@@ -99,4 +99,4 @@ Set Variable [ $$stop ]
 Set Variable [ $$stopIconInsert ]
 Go to Field [ ]
 #
-January 8, 平成26 12:54:59 Fat and Muscle Efﬁciency Research.fp7 - bBegin -2-
+January 8, 平成26 12:54:59 Fat and Muscle Efficiency Research.fp7 - bBegin -2-

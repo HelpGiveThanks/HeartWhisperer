@@ -21,4 +21,4 @@ Else If [ Get (LastMessageChoice) = 3 ]
 Set Field [ week::kprediction; "" ]
 Go to Field [ ]
 End If
-January 8, 平成26 12:12:05 Fat and Muscle Efﬁciency Research.fp7 - createNewPrediction -1-
+January 8, 平成26 12:12:05 Fat and Muscle Efficiency Research.fp7 - createNewPrediction -1-

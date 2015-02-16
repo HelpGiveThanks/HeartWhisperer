@@ -13,4 +13,4 @@ Set Field [ segment01::MaxHeartRate; exerciseActivity::MaxHeartRateCurrent ]
 Go to Field [ ]
 #
 End If
-January 8, 平成26 12:11:40 Fat and Muscle Efﬁciency Research.fp7 - resetMaxHeartRate -1-
+January 8, 平成26 12:11:40 Fat and Muscle Efficiency Research.fp7 - resetMaxHeartRate -1-

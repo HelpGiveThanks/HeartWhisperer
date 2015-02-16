@@ -15,4 +15,4 @@ Set Field [ exerciseMHR::kuser; $user ]
 Sort Records [ Specified Sort Order: user::name; ascending ]
 [ Restore; No dialog ]
 Go to Field [ ]
-January 8, 平成26 12:06:05 Fat and Muscle Efﬁciency Research.fp7 - newTest -1-
+January 8, 平成26 12:06:05 Fat and Muscle Efficiency Research.fp7 - newTest -1-

@@ -23,4 +23,4 @@ Set Field [ segment01::MaxHeartRate; exerciseActivity::MaxHeartRateCurrent ]
 #Create a first segment for this workout.
 Perform Script [ “NewSegment” ]
 #
-January 8, 平成26 12:38:25 Fat and Muscle Efﬁciency Research.fp7 - NewWorkout -1-
+January 8, 平成26 12:38:25 Fat and Muscle Efficiency Research.fp7 - NewWorkout -1-

@@ -9,7 +9,7 @@ Close Window [ Name: "Workout Editor"; Current file ]
 Close Window [ Name: "Plan Week"; Current file ]
 Set Window Title [ Current Window; New Title: "Heart Whisperer" ]
 #
-Go to Layout [ “Proﬁle” (exerciseMHR) ]
+Go to Layout [ “Profile” (exerciseMHR) ]
 #
 Go to Record/Request/Page
 [ First ]

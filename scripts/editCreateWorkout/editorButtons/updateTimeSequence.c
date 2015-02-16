@@ -50,7 +50,7 @@ End If
 Go to Field [ ]
 #
 New Window [ Height: 1; Width: 1; Top: -1000; Left: -1000 ]
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -1-editCreateWorkout: editorButtons: updateTimeSequence
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -1-editCreateWorkout: editorButtons: updateTimeSequence
 #Clear time.
 Set Variable [ $workout; Value:activity::_Lactivity ]
 Go to Layout [ “WorkoutSegment” (segment01) ]
@@ -133,7 +133,7 @@ Length ( segment01::iconCheckLastZonePick ) = 1 ;
 segment01::iconCheckLastZoneMultiplier = segment01::ZoneMultiplier ;
 segment01::iconCheckLastZoneMultiplier + .5 = segment01::ZoneMultiplier )
  ; "" ; 1 ) = 1 ]
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -2-editCreateWorkout: editorButtons: updateTimeSequence
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -2-editCreateWorkout: editorButtons: updateTimeSequence
 Exit Loop If [ //Do not evaluate segment 1.
 $totalTime ≠ "01" and
 //Two zone icon check calculations.
@@ -270,7 +270,7 @@ Length ( segment01::iconCheckLastZonePick ) = 1 ;
 segment01::iconCheckLastZoneMultiplier = segment01::ZoneMultiplier ;
 segment01::iconCheckLastZoneMultiplier + .5 = segment01::ZoneMultiplier )
  ; "" ; 1 ) = 1 ]
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -3-editCreateWorkout: editorButtons: updateTimeSequence
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -3-editCreateWorkout: editorButtons: updateTimeSequence
 If [ //Do not evaluate segment 1.
 $totalTime ≠ "01" and
 //Two zone icon check calculations.
@@ -349,7 +349,7 @@ Go to Record/Request/Page
 End If
 Set Variable [ $totalTime; Value:segment01::SegmentNumber ]
 If [ segment01::ZoneMultiplier = 1 and
-Middle ( segment01::iconInfo ; 9 ; 1 ) = "b" ] January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -4-editCreateWorkout: editorButtons: updateTimeSequence If [ segment01::ZoneMultiplier = 1 and
+Middle ( segment01::iconInfo ; 9 ; 1 ) = "b" ] January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -4-editCreateWorkout: editorButtons: updateTimeSequence If [ segment01::ZoneMultiplier = 1 and
 Middle ( segment01::iconInfo ; 9 ; 1 ) = "b" ]
 Set Field [ activity::segmentNumberGlobal; 1 ]
 Else
@@ -400,7 +400,7 @@ Exit Loop If [ GetValue ( activity::rowAend ; 1 ) = "0" & $segment - 1 ]
 #
 #Get the current segments total time or exit loop if
 #if there is no time. This can happen if the step below
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -5-editCreateWorkout: editorButtons: updateTimeSequence
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -5-editCreateWorkout: editorButtons: updateTimeSequence
 #the if arguement has already created the final total
 #record, which means the user has already run the script
 #once and has made a change to one of the segments
@@ -452,7 +452,7 @@ Perform Find [ Specified Find Requests: Find Records; Criteria: activitySequence
 “99999999999999999999” ]
 [ Restore ]
 Loop
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -6-editCreateWorkout: editorButtons: updateTimeSequence
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -6-editCreateWorkout: editorButtons: updateTimeSequence
 New Record/Request
 Set Field [ activitySequence1::kactivity; $workout ]
 Set Field [ activitySequence1::time; GetValue ( $sequenceTime ; $valueCount ) ]
@@ -504,7 +504,7 @@ Set Field [ $time ]
 Set Variable [ $segment; Value:GetValue ( activity::rowBbegin ; 1 ) + 1 ]
 Set Variable [ $segmentSequence; Value:$segmentSequence & GetValue ( activity::rowBbegin ; 1 ) & ¶ ]
 #
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -7-editCreateWorkout: editorButtons: updateTimeSequence
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -7-editCreateWorkout: editorButtons: updateTimeSequence
 #Second segement in on row B.
 Loop
 #
@@ -556,7 +556,7 @@ End Loop
 #If there are no repeats then finish up the script.
 If [ activity::rowCbegin = "" or activity::rowBend = "" ]
 Go to Field [ ]
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -8-editCreateWorkout: editorButtons: updateTimeSequence
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -8-editCreateWorkout: editorButtons: updateTimeSequence
 #
 #Note total number of segements including repeats
 #in workout.
@@ -608,7 +608,7 @@ Set Variable [ $time; Value:Get ( ActiveFieldContents ) + $time ]
 #
 #Add values to the time and segment variables which
 #will be used below to create a new set of sequence
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -9-editCreateWorkout: editorButtons: updateTimeSequence
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -9-editCreateWorkout: editorButtons: updateTimeSequence
 #records. These are used to walk a user through the
 #exercise one segment at a time.
 Set Variable [ $sequenceTime; Value:$time & ¶ & $sequenceTime ]
@@ -660,7 +660,7 @@ Set Field [ $time ]
 Set Variable [ $segment; Value:$segment + 1 ]
 Go to Object [ Object Name: "time" & $segment ]
 Go to Object [ Object Name: "time0" & $segment ]
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -10-editCreateWorkout: editorButtons: updateTimeSequence
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -10-editCreateWorkout: editorButtons: updateTimeSequence
 Exit Loop If [ Get (ActiveFieldContents) = "" ]
 End Loop
 Go to Field [ ]
@@ -698,4 +698,4 @@ End Loop
 Close Window [ Current Window ]
 Perform Script [ “CHUNKAddUpPointsAndTime” ]
 Refresh Window
-January 8, 平成26 12:40:16 Fat and Muscle Efﬁciency Research.fp7 - updateTimeSequence -11-
+January 8, 平成26 12:40:16 Fat and Muscle Efficiency Research.fp7 - updateTimeSequence -11-

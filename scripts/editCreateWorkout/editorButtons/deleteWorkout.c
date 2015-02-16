@@ -50,7 +50,7 @@ Loop
 If [ planlog::kworkout = $workout ]
 Set Field [ planlog::kworkout; "" ]
 End If
-January 8, 平成26 12:39:46 Fat and Muscle Efﬁciency Research.fp7 - deleteWorkout -1-editCreateWorkout: editorButtons: deleteWorkout
+January 8, 平成26 12:39:46 Fat and Muscle Efficiency Research.fp7 - deleteWorkout -1-editCreateWorkout: editorButtons: deleteWorkout
 Go to Record/Request/Page
 [ Next; Exit after last ]
 End Loop
@@ -63,4 +63,4 @@ End If
 Go to Layout [ original layout ]
 End If
 #
-January 8, 平成26 12:39:46 Fat and Muscle Efﬁciency Research.fp7 - deleteWorkout -2-
+January 8, 平成26 12:39:46 Fat and Muscle Efficiency Research.fp7 - deleteWorkout -2-

@@ -52,7 +52,7 @@ End If
 Go to Record/Request/Page
 [ Next; Exit after last ]
 End Loop
-January 8, 平成26 12:31:37 Fat and Muscle Efﬁciency Research.fp7 - useWeek -1-planned workouts: main: useWeek
+January 8, 平成26 12:31:37 Fat and Muscle Efficiency Research.fp7 - useWeek -1-planned workouts: main: useWeek
 #
 #Next insure that this plan has an intensity level on which
 #the plan is based.
@@ -112,7 +112,7 @@ Middle ( intensityWeek::timeInZone ; 7 ; 2 ) = 20 ;
 Case (
 Middle ( intensityWeek::timeInZone ; 9 ; 2 ) = 10 ;
 .05 ≤ Left ( planlog::z5percentage_plan ; 3 ) and Left ( planlog::z5percentage_plan ; 3 ) ≤ .15 ; ) ]
-January 8, 平成26 12:31:37 Fat and Muscle Efﬁciency Research.fp7 - useWeek -2-planned workouts: main: useWeek
+January 8, 平成26 12:31:37 Fat and Muscle Efficiency Research.fp7 - useWeek -2-planned workouts: main: useWeek
 If [ //zone 1
 Case ( Middle ( intensityWeek::timeInZone ; 1 ; 3 ) = "100" ;
 planlog::z1percentage_plan = 1 ;
@@ -174,7 +174,7 @@ If [ week::kprediction = "" ]
 Go to Record/Request/Page
 [ First ]
 Show Custom Dialog [ Message: "These workouts need to part of a series of workouts that you predict will cause your body to be
-able to do X comfortably: walk 5 miles, ﬁnish a half-marthon in 3 hours, hike up and down steep hills for 1 hour, etc."; Buttons:
+able to do X comfortably: walk 5 miles, finish a half-marthon in 3 hours, hike up and down steep hills for 1 hour, etc."; Buttons:
 “OK” ]
 #
 #Restart load record script and perform it to highlight
@@ -202,7 +202,7 @@ Enter Find Mode [ ]
 Set Field [ week::kprediction; $prediction ]
 Perform Find [ ]
 If [ Get (FoundCount) = 1 ]
-January 8, 平成26 12:31:37 Fat and Muscle Efﬁciency Research.fp7 - useWeek -3-planned workouts: main: useWeek
+January 8, 平成26 12:31:37 Fat and Muscle Efficiency Research.fp7 - useWeek -3-planned workouts: main: useWeek
 Set Field [ week::Order; 1 ]
 Else
 Sort Records [ Specified Sort Order: week::Order; ascending ]
@@ -255,7 +255,7 @@ week::Order; ascending ]
 [ Restore; No dialog ]
 #
 #Take user to the newly planned week.
-January 8, 平成26 12:31:37 Fat and Muscle Efﬁciency Research.fp7 - useWeek -4-planned workouts: main: useWeek
+January 8, 平成26 12:31:37 Fat and Muscle Efficiency Research.fp7 - useWeek -4-planned workouts: main: useWeek
 Loop
 Exit Loop If [ planlog::_Lplanlog = $key ]
 Go to Record/Request/Page
@@ -267,4 +267,4 @@ End Loop
 Set Variable [ $$stopLoadUserWeek ]
 Perform Script [ “loadUserPlannedWeek” ]
 #
-January 8, 平成26 12:31:37 Fat and Muscle Efﬁciency Research.fp7 - useWeek -5-
+January 8, 平成26 12:31:37 Fat and Muscle Efficiency Research.fp7 - useWeek -5-

@@ -21,4 +21,4 @@ Set Variable [ $object; Value:Get ( ActiveLayoutObjectName ) ]
 Go to Layout [ “weekPlanEnterNumbers” (planlog) ]
 Go to Object [ Object Name: $object ]
 End If
-January 8, 平成26 12:22:17 Fat and Muscle Efﬁciency Research.fp7 - enterFormViewIfOniPhone -1-
+January 8, 平成26 12:22:17 Fat and Muscle Efficiency Research.fp7 - enterFormViewIfOniPhone -1-

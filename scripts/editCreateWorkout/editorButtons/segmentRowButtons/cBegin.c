@@ -50,7 +50,7 @@ Set Variable [ $$stop; Value:1 ]
 #
 #Collect row ending icon information.
 Go to Object [ Object Name: "icon" & GetValue ( activity::rowBend ; 1 ) ]
-January 8, 平成26 15:38:20 Fat and Muscle Efﬁciency Research.fp7 - cBegin -1-editCreateWorkout: editorButtons: segmentRowButtons: cBegin
+January 8, 平成26 15:38:20 Fat and Muscle Efficiency Research.fp7 - cBegin -1-editCreateWorkout: editorButtons: segmentRowButtons: cBegin
 Set Variable [ $$end; Value:Get ( ActiveFieldContents ) ]
 Go to Object [ Object Name: "zone" & GetValue ( activity::rowBend ; 1 ) ]
 Set Variable [ $$endZone; Value:Get ( ActiveFieldContents ) ]
@@ -99,4 +99,4 @@ Set Variable [ $$stop ]
 Set Variable [ $$stopIconInsert ]
 Go to Field [ ]
 #
-January 8, 平成26 15:38:20 Fat and Muscle Efﬁciency Research.fp7 - cBegin -2-
+January 8, 平成26 15:38:20 Fat and Muscle Efficiency Research.fp7 - cBegin -2-

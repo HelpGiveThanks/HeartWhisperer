@@ -50,7 +50,7 @@ Delete Record/Request
 Go to Layout [ original layout ]
 End If
 #
-January 8, 平成26 12:11:11 Fat and Muscle Efﬁciency Research.fp7 - deleteLoggedWorkoutFromWeek -1-log: main: deleteLoggedWorkoutFromWeek
+January 8, 平成26 12:11:11 Fat and Muscle Efficiency Research.fp7 - deleteLoggedWorkoutFromWeek -1-log: main: deleteLoggedWorkoutFromWeek
 #If workout is attached, see if it is the only log record
 #using this workout.
 If [ $workout ≠ "" ]
@@ -80,4 +80,4 @@ Close Window [ Current Window ]
 Set Variable [ $$stopLoadUserWeek ]
 Perform Script [ “loadUserLogWeek” ]
 #
-January 8, 平成26 12:11:11 Fat and Muscle Efﬁciency Research.fp7 - deleteLoggedWorkoutFromWeek -2-
+January 8, 平成26 12:11:11 Fat and Muscle Efficiency Research.fp7 - deleteLoggedWorkoutFromWeek -2-

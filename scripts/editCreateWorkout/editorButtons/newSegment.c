@@ -50,10 +50,10 @@ Refresh Window
 Exit Script [ ]
 End If
 #
-January 8, 平成26 12:46:56 Fat and Muscle Efﬁciency Research.fp7 - NewSegment -1-editCreateWorkout: editorButtons: NewSegment
+January 8, 平成26 12:46:56 Fat and Muscle Efficiency Research.fp7 - NewSegment -1-editCreateWorkout: editorButtons: NewSegment
 #Close the window to return user to workout window
 #which now will show the newly added segment.
 Close Window [ Current Window ]
 Refresh Window
 [ Flush cached join results ]
-January 8, 平成26 12:46:56 Fat and Muscle Efﬁciency Research.fp7 - NewSegment -2-
+January 8, 平成26 12:46:56 Fat and Muscle Efficiency Research.fp7 - NewSegment -2-

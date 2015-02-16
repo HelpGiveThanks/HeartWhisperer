@@ -50,7 +50,7 @@ End If
 Set Field [ planlog::kworkout; $workout ]
 #
 #Now clear all the time from this workout. This is done
-January 8, 平成26 12:43:29 Fat and Muscle Efﬁciency Research.fp7 - FillPlanSlotWithWorkout -1-editCreateWorkout: editorButtons: FillPlanSlotWithWorkout
+January 8, 平成26 12:43:29 Fat and Muscle Efficiency Research.fp7 - FillPlanSlotWithWorkout -1-editCreateWorkout: editorButtons: FillPlanSlotWithWorkout
 #because the summary field that calculates time in zone
 #is set to add up al these times and the workout time
 #from any related workouts. So to insure only the related
@@ -90,4 +90,4 @@ Refresh Window
 Set Variable [ $$stopLoadUserWeek ]
 Set Variable [ $$stopiphone ]
 #
-January 8, 平成26 12:43:29 Fat and Muscle Efﬁciency Research.fp7 - FillPlanSlotWithWorkout -2-
+January 8, 平成26 12:43:29 Fat and Muscle Efficiency Research.fp7 - FillPlanSlotWithWorkout -2-

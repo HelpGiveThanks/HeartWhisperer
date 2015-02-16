@@ -38,4 +38,4 @@ Perform Script [ “loadUserLogWeek” ]
 // Set Field [ planlog::kuser; $user ]
 // Perform Find [ ]
 #
-January 8, 平成26 12:10:42 Fat and Muscle Efﬁciency Research.fp7 - newUserWorkout -1-
+January 8, 平成26 12:10:42 Fat and Muscle Efficiency Research.fp7 - newUserWorkout -1-

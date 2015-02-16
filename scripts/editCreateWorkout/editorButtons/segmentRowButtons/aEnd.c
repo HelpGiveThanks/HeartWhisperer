@@ -23,4 +23,4 @@ Set Field [ "" ]
 Go to Field [ ]
 Set Variable [ $$stop ]
 End If
-January 8, 平成26 12:53:53 Fat and Muscle Efﬁciency Research.fp7 - aEnd -1-
+January 8, 平成26 12:53:53 Fat and Muscle Efficiency Research.fp7 - aEnd -1-
